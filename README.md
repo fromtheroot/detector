@@ -11,8 +11,8 @@ A simple Python web app for object detection using Ultralytics YOLOv11. Upload a
 
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
-   cd <repo-directory>
+   git clone https://github.com/fromtheroot/detector.git
+   cd detector
    ```
 
 2. **Create a conda environment (Python 3.11)**
@@ -38,6 +38,3 @@ A simple Python web app for object detection using Ultralytics YOLOv11. Upload a
 - The app will automatically attempt to download the YOLOv11 model weights (`yolo11n.pt`) if not present.
 - If you want to use a different YOLO model, change the model path in `app.py`.
 - The app uses system fonts for label rendering.
-
-## License
-AGPL-3.0
